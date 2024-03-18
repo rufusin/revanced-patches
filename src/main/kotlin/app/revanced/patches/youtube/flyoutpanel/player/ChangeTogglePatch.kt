@@ -54,7 +54,6 @@ import com.android.tools.smali.dexlib2.iface.instruction.ReferenceInstruction
                 "19.02.39",
                 "19.03.36",
                 "19.04.38",
-                "19.05.35",
                 "19.05.36"
             ]
         )
@@ -71,7 +70,6 @@ object ChangeTogglePatch : BytecodePatch(
     )
 ) {
     override fun execute(context: BytecodeContext) {
-        if (SettingsPatch.upward1841) throw PatchException("This version is not supported. Please use YouTube 19.05.36 or earlier.")
 
         val additionalSettingsConfigResult = AdditionalSettingsConfigFingerprint.result
             ?: throw AdditionalSettingsConfigFingerprint.exception
@@ -109,6 +107,7 @@ object ChangeTogglePatch : BytecodePatch(
     }
 
     private fun MethodFingerprint.injectCall(descriptor: String) {
+
         result?.let {
             it.mutableMethod.apply {
                 val insertIndex = implementation!!.instructions.indexOfFirst { instruction ->
@@ -125,6 +124,7 @@ object ChangeTogglePatch : BytecodePatch(
                         """
                 )
             }
-        } ?: throw PatchException("This version is not supported. Please use YouTube 19.05.36 or previous ones.")
+        } ?: throw PatchException("This version is not supported. Please use YouTube 19.05.36 or earlier.")
+
     }
 }
