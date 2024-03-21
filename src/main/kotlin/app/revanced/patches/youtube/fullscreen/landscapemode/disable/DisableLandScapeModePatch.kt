@@ -56,8 +56,7 @@ import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
                 "19.09.37"
             ]
         )
-    ],
-    use = true
+    ]
 )
 @Suppress("unused")
 object DisableLandScapeModePatch : BytecodePatch(

@@ -51,8 +51,7 @@ import app.revanced.util.copyResources
                 "19.09.37"
             ]
         )
-    ],
-    use = true
+    ]
 )
 @Suppress("unused")
 object ShortsOverlayButtonsPatch : ResourcePatch() {
