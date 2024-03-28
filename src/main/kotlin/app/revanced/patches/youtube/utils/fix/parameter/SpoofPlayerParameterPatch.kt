@@ -77,7 +77,8 @@ import com.android.tools.smali.dexlib2.iface.instruction.FiveRegisterInstruction
                 "19.11.43"
             ]
         )
-    ]
+    ],
+    use = false
 )
 object SpoofPlayerParameterPatch : BytecodePatch(
     setOf(
