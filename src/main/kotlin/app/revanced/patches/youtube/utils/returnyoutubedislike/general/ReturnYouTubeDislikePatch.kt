@@ -76,7 +76,7 @@ import com.android.tools.smali.dexlib2.iface.reference.FieldReference
                 "19.08.36",
                 "19.09.38",
                 "19.10.39",
-                "19.11.38"
+                "19.11.43"
             ]
         )
     ]

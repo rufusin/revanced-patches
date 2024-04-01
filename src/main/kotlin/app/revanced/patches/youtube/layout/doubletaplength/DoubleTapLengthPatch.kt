@@ -51,7 +51,7 @@ import app.revanced.util.copyResources
                 "19.08.36",
                 "19.09.38",
                 "19.10.39",
-                "19.11.38"
+                "19.11.43"
             ]
         )
     ]
