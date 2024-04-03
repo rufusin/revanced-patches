@@ -136,7 +136,10 @@ object PlaybackSpeedPatch : BytecodePatch(
 
         SettingsPatch.updatePatchStatus("Default playback speed")
 
-        context.updatePatchStatus("$UTILS_PATH/PatchStatus;", "DefaultPlaybackSpeed")
+        /**
+         * Disabling/enabling default setting in menu
+         */
+        // context.updatePatchStatus("$UTILS_PATH/PatchStatus;", "DefaultPlaybackSpeed")
 
     }
 
