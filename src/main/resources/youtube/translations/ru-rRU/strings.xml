@@ -212,9 +212,9 @@
     <string name="revanced_enable_swipe_haptic_feedback_summary_off">Виброотклик отключен</string>
     <string name="revanced_enable_swipe_haptic_feedback_summary_on">Виброотклик включен</string>
     <string name="revanced_enable_swipe_haptic_feedback_title">Включить виброотклик</string>
-    <string name="revanced_enable_swipe_press_to_engage_summary_off">Активация жеста нажатием</string>
-    <string name="revanced_enable_swipe_press_to_engage_summary_on">Активация жеста нажатием и удержанием</string>
-    <string name="revanced_enable_swipe_press_to_engage_title">Управление жестом перемотки видео</string>
+    <string name="revanced_enable_swipe_press_to_engage_summary_off">Жесты активируются нажатием</string>
+    <string name="revanced_enable_swipe_press_to_engage_summary_on">Жесты активируются нажатием и удержанием</string>
+    <string name="revanced_enable_swipe_press_to_engage_title">Управление активацией жестов</string>
     <string name="revanced_enable_swipe_volume_summary_off">Управление громкостью жестом отключено</string>
     <string name="revanced_enable_swipe_volume_summary_on">Управление громкостью жестом включено</string>
     <string name="revanced_enable_swipe_volume_title">Управление громкостью жестом</string>
@@ -459,8 +459,8 @@
     <string name="revanced_hide_info_cards_summary_off">Подсказки отображены</string>
     <string name="revanced_hide_info_cards_summary_on">Подсказки скрыты</string>
     <string name="revanced_hide_info_cards_title">Скрыть подсказки</string>
-    <string name="revanced_hide_info_panel_summary_off">Информационные панели отображены</string>
-    <string name="revanced_hide_info_panel_summary_on">Информационные панели скрыты</string>
+    <string name="revanced_hide_info_panel_summary_off">Информационные панели отображены\nПримечание:\n• Также отображены метки метаданных звука и ссылки на видео</string>
+    <string name="revanced_hide_info_panel_summary_on">Информационные панели скрыты\nПримечание:\n• Также скрыты метки метаданных звука и ссылки на видео</string>
     <string name="revanced_hide_info_panel_title">Скрыть информационные панели</string>
     <string name="revanced_hide_join_button_summary_off">Кнопка \"Присоединиться\" отображена</string>
     <string name="revanced_hide_join_button_summary_on">Кнопка \"Присоединиться\" скрыта</string>
@@ -629,9 +629,9 @@
     <string name="revanced_hide_shorts_player_navigation_bar_summary_off">Панель навигации отображена</string>
     <string name="revanced_hide_shorts_player_navigation_bar_summary_on">Панель навигации скрыта</string>
     <string name="revanced_hide_shorts_player_navigation_bar_title">Скрыть панель навигации</string>
-    <string name="revanced_hide_shorts_player_pivot_button_summary_off">Кнопка \"Аудио\" отображена</string>
-    <string name="revanced_hide_shorts_player_pivot_button_summary_on">Кнопка \"Аудио\" скрыта</string>
-    <string name="revanced_hide_shorts_player_pivot_button_title">Скрыть кнопку \"Аудио\"</string>
+    <string name="revanced_hide_shorts_player_pivot_button_summary_off">Кнопка \"Звуковая дорожка\" отображена</string>
+    <string name="revanced_hide_shorts_player_pivot_button_summary_on">Кнопка \"Звуковая дорожка\" скрыта</string>
+    <string name="revanced_hide_shorts_player_pivot_button_title">Скрыть кнопку \"Звуковая дорожка\"</string>
     <string name="revanced_hide_shorts_player_sound_metadata_label_summary_off">Метаданные звука отображены</string>
     <string name="revanced_hide_shorts_player_sound_metadata_label_summary_on">Метаданные звука скрыты</string>
     <string name="revanced_hide_shorts_player_sound_metadata_label_title">Скрыть метаданные звука</string>
@@ -710,9 +710,9 @@
     <string name="revanced_hide_video_with_low_view_num_multiplier_value">тыс. -> 1 000\nмлн. -> 1 000 000\nмлрд. -> 1 000 000 000</string>
     <string name="revanced_hide_video_with_low_view_num_summary">Видео с просмотрами меньше заданного числа будут скрыты</string>
     <string name="revanced_hide_video_with_low_view_num_title">Задать количество просмотров</string>
-    <string name="revanced_hide_video_with_low_view_old_summary">"Скрывает видео в фидах с числом просмотров менее 1 000.\nПримечание:\n• Некоторые видео, в том числе с каналов, на которые вы подписаны, могут быть не скрыты\n• Это стараый вариант скрытия! Если вы используете вариант выше, отключите этот"</string>
+    <string name="revanced_hide_video_with_low_view_old_summary">"Скрывает видео в фидах с числом просмотров менее 1 000.\nПримечание:\n• Некоторые видео, в том числе с каналов, на которые вы подписаны, могут быть не скрыты\n• Если вы используете вариант скрытия выше, отключите этот"</string>
     <string name="revanced_hide_video_with_low_view_old_title">Скрыть видео с низким просмотром</string>
-    <string name="revanced_hide_video_with_low_view_summary">Скрывает видео в фидах с числом просмотров менее заданного.\nПримечание:\n• Некоторые видео, в том числе с каналов, на которые вы подписаны, могут быть не скрыты</string>
+    <string name="revanced_hide_video_with_low_view_summary">Скрывает видео в фидах с числом просмотров менее заданного</string>
     <string name="revanced_hide_video_with_low_view_title">Скрыть видео с низким просмотром</string>
     <string name="revanced_hide_view_products_summary_off">Баннер просмотра товаров отображен</string>
     <string name="revanced_hide_view_products_summary_on">Баннер просмотра товаров скрыт</string>
@@ -753,7 +753,7 @@
     <string name="revanced_overlay_button_external_downloader_summary">Нажмите для запуска внешнего загрузчика</string>
     <string name="revanced_overlay_button_external_downloader_title">Кнопка внешнего загрузчика</string>
     <string name="revanced_overlay_button_speed_dialog_reset">Скорость воспроизведения сброшена в 1.0x</string>
-    <string name="revanced_overlay_button_speed_dialog_summary">Нажмите для открытия выбора скорости.\nНажмите и удерживайте для установки скорости воспроизведения в 1.0x</string>
+    <string name="revanced_overlay_button_speed_dialog_summary">Нажмите и удерживайте, чтобы сбросить скорость воспроизведения до 1.0x.\nНажмите и удерживайте еще раз, чтобы вернуться к скорости по умолчанию.</string>
     <string name="revanced_overlay_button_speed_dialog_title">Кнопка выбора скорости воспроизведения</string>
     <string name="revanced_overlay_button_time_ordered_playlist_summary">Нажмите, чтобы создать плейлист всех видео канала.\nНажмите и удерживайте, чтобы отменить действие</string>
     <string name="revanced_overlay_button_time_ordered_playlist_title">Кнопка создания плейлиста канала</string>
@@ -789,12 +789,12 @@
     <string name="revanced_ryd_dislike_percentage_title">Отображение дизлайков</string>
     <string name="revanced_ryd_enable_summary_off">Дизлайки скрыты</string>
     <string name="revanced_ryd_enable_summary_on">Дизлайки отображены</string>
-    <string name="revanced_ryd_enable_title">Включить ReturnYouTubeDislike</string>
+    <string name="revanced_ryd_enable_title">Включить дизлайки</string>
     <string name="revanced_ryd_failure_client_rate_limit_requested">Дизлайки не доступны (достигнут лимит клиента API)</string>
     <string name="revanced_ryd_failure_connection_status_code" formatted="false">Дизлайки недоступны (статус %d)</string>
     <string name="revanced_ryd_failure_connection_timeout">Дизлайки временно недоступны (время ожидания API истекло)</string>
     <string name="revanced_ryd_failure_generic">Дизлайки недоступны (%s)</string>
-    <string name="revanced_ryd_settings_title">Настройки ReturnYouTubeDislike</string>
+    <string name="revanced_ryd_settings_title">Дизлайки</string>
     <string name="revanced_ryd_shorts_summary_disclaimer">Примечание:\n• Дизлайки могут не появляться в определенных ситуациях</string>
     <string name="revanced_ryd_shorts_summary_off">Дизлайки в коротких видео скрыты</string>
     <string name="revanced_ryd_shorts_summary_on">Дизлайки в коротких видео отображены. %s</string>
@@ -826,7 +826,7 @@
     <string name="revanced_skip_preloaded_buffer_toast_summary_on">Уведомление при пропуске отображено</string>
     <string name="revanced_skip_preloaded_buffer_toast_title">Показывать уведомление при пропуске</string>
     <string name="revanced_skipped_preloaded_buffer">Пропущен предварительно загруженный буфер</string>
-    <string name="revanced_sponsorblock_settings_title">Настройки SponsorBlock</string>
+    <string name="revanced_sponsorblock_settings_title">Спонсорблок</string>
     <string name="revanced_spoof_app_version_summary">Подменяет номер версии клиента.\nЭто позволяет изменить внешний вид приложения, но могут возникнуть различные проблемы.\nПри дальнейшем отключении данной опции, измененный интерфейс может остаться до очистки данных приложения!</string>
     <string name="revanced_spoof_app_version_target_entry_16_08_35">16.08.35 - Восстановление вкладки \"Навигатор\"</string>
     <string name="revanced_spoof_app_version_target_entry_17_08_35">17.08.35 - Восстановление старого стиля отображения пользовательского интерфейса</string>
@@ -884,8 +884,8 @@
     <string name="revanced_whitelisting_settings_summary">Посмотреть или удалить каналы, добавленные в белый список</string>
     <string name="revanced_whitelisting_speed">Список \"Скорость видео\"</string>
     <string name="revanced_whitelisting_speed_button">Кнопка \"Скорость видео\"</string>
-    <string name="revanced_whitelisting_sponsorblock">Список \"SponsorBlock\"</string>
-    <string name="revanced_whitelisting_sponsorblock_button">Кнопка \"SponsorBlock\"</string>
+    <string name="revanced_whitelisting_sponsorblock">Список \"Спонсорблок\"</string>
+    <string name="revanced_whitelisting_sponsorblock_button">Кнопка \"Спонсорблок\"</string>
     <string name="revanced_whitelisting_title">Белый список каналов</string>
     <string name="sb_about">Информация</string>
     <string name="sb_about_api_sum">Нажмите, чтобы узнать больше и посмотреть загрузки для других платформ на sponsor.ajay.app</string>
@@ -908,8 +908,8 @@
     <string name="sb_enable_create_segment">Кнопка создания нового сегмента</string>
     <string name="sb_enable_create_segment_sum_off">Кнопка создания нового сегмента отключена</string>
     <string name="sb_enable_create_segment_sum_on">Кнопка создания нового сегмента включена</string>
-    <string name="sb_enable_sb">Включить SponsorBlock</string>
-    <string name="sb_enable_sb_sum">SponsorBlock - коллективная система для пропуска раздражающих частей в видео</string>
+    <string name="sb_enable_sb">Включить спонсорблок</string>
+    <string name="sb_enable_sb_sum">Спонсорблок - коллективная система для пропуска раздражающих частей в видео</string>
     <string name="sb_enable_voting">Кнопка голосования</string>
     <string name="sb_enable_voting_sum_off">Кнопка голосования отключена</string>
     <string name="sb_enable_voting_sum_on">Кнопка голосования включена</string>
@@ -918,12 +918,12 @@
     <string name="sb_general_adjusting_invalid">Значение должно быть положительным числом</string>
     <string name="sb_general_adjusting_sum">Количество миллисекунд, на которое можно смещаться, используя кнопки перемотки при добавлении нового сегмента</string>
     <string name="sb_general_api_url">Изменить API адреса сервера</string>
-    <string name="sb_general_api_url_sum">Адрес, используемый SponsorBlock для связи с сервером. Не меняйте его, если не знаете, что делаете</string>
+    <string name="sb_general_api_url_sum">Адрес, используемый спонсорблоком для связи с сервером. Не меняйте его, если не знаете, что делаете</string>
     <string name="sb_general_min_duration">Минимальная длительность сегмента</string>
     <string name="sb_general_min_duration_sum">Сегменты, продолжительность которых короче, чем установленное значение (в секундах), не будут пропущены или показаны в плеере</string>
     <string name="sb_general_skipcount">Подсчет количества пропусков</string>
     <string name="sb_general_skipcount_sum_off">Отслеживание количества пропусков не включено</string>
-    <string name="sb_general_skipcount_sum_on">Это позволяет системе доски лидеров SponsorBlock знать, сколько времени было сэкономлено. Расширение отправляет сообщение на сервер каждый раз при пропуске сегмента</string>
+    <string name="sb_general_skipcount_sum_on">Это позволяет системе доски лидеров спонсорблока знать, сколько времени было сэкономлено. Расширение отправляет сообщение на сервер каждый раз при пропуске сегмента</string>
     <string name="sb_general_skiptoast">Показывать уведомление при автоматическом пропуске сегмента</string>
     <string name="sb_general_skiptoast_sum_off">Уведомление при автоматическом пропуске сегмента скрыто</string>
     <string name="sb_general_skiptoast_sum_on">Уведомление при автоматическом пропуске сегмента отображено</string>
@@ -934,7 +934,7 @@
     <string name="sb_general_uuid_invalid">Идентификатор пользователя не может быть пустым</string>
     <string name="sb_general_uuid_sum">Это нужно держать в секрете. Это как пароль, не стоит им ни с кем делиться. Если он у кого-то есть, он сможет выдать себя за Вас</string>
     <string name="sb_guidelines_popup_already_read">Уже прочитано</string>
-    <string name="sb_guidelines_popup_content">Перед отправкой любого сегмента рекомендуется прочитать рекомендации от SponsorBlock</string>
+    <string name="sb_guidelines_popup_content">Перед отправкой любого сегмента рекомендуется прочитать рекомендации от спонсорблока</string>
     <string name="sb_guidelines_popup_open">Показать</string>
     <string name="sb_guidelines_popup_title">Следуйте инструкциям</string>
     <string name="sb_guidelines_preference_sum">Руководство содержит правила и советы по созданию новых сегментов</string>
@@ -955,7 +955,7 @@
     <string name="sb_new_segment_start_is_before_end">Начало должно быть перед окончанием</string>
     <string name="sb_new_segment_time_end">Время окончания сегмента:</string>
     <string name="sb_new_segment_time_start">Время начала сегмента:</string>
-    <string name="sb_new_segment_title">Новый сегмент SponsorBlock</string>
+    <string name="sb_new_segment_title">Новый сегмент спонсорблока</string>
     <string name="sb_reset">Сброс</string>
     <string name="sb_reset_color">Сбросить цвет</string>
     <string name="sb_segments_filler">Отвлеченные темы/шутки</string>
@@ -983,7 +983,7 @@
     <string name="sb_settings_ie_sum_warning">Сюда входит Ваш идентификатор пользователя, поэтому делитесь им с умом</string>
     <string name="sb_settings_import_failed">Не удалось импортировать: %s</string>
     <string name="sb_settings_import_successful">Настройки успешно импортированы</string>
-    <string name="sb_settings_revanced_export_user_id_warning">Ваши настройки SponsorBlock содержат приватный ID пользователя.\nВаш ID пользователя как пароль, им не стоит ни с кем делиться.</string>
+    <string name="sb_settings_revanced_export_user_id_warning">Ваши настройки спонсорблока содержат приватный ID пользователя.\nВаш ID пользователя как пароль, им не стоит ни с кем делиться.</string>
     <string name="sb_settings_revanced_export_user_id_warning_dismiss">Не показывать снова</string>
     <string name="sb_skip_automatically">Автоматически пропускать</string>
     <string name="sb_skip_automatically_once">Автоматически пропустить единожды</string>
@@ -1013,9 +1013,9 @@
     <string name="sb_skipped_selfpromo">Пропущена самореклама</string>
     <string name="sb_skipped_sponsor">Пропущена спонсорская реклама</string>
     <string name="sb_skipped_unsubmitted">Пропущен неотправленный сегмент</string>
-    <string name="sb_sponsorblock_connection_failure_generic">SponsorBlock временно недоступен</string>
-    <string name="sb_sponsorblock_connection_failure_status" formatted="false">SponsorBlock временно недоступен (статус %d)</string>
-    <string name="sb_sponsorblock_connection_failure_timeout">SponsorBlock временно недоступен (время ожидания API истекло)</string>
+    <string name="sb_sponsorblock_connection_failure_generic">Спонсорблок временно недоступен</string>
+    <string name="sb_sponsorblock_connection_failure_status" formatted="false">Спонсорблок временно недоступен (статус %d)</string>
+    <string name="sb_sponsorblock_connection_failure_timeout">Спонсорблок временно недоступен (время ожидания API истекло)</string>
     <string name="sb_stats">Статистика</string>
     <string name="sb_stats_connection_failure">Статистика временно недоступна (API не работает)</string>
     <string name="sb_stats_reputation" formatted="false">Ваша репутация &lt;b>%.2f&lt;/b></string>
@@ -1025,8 +1025,8 @@
     <string name="sb_stats_saved_second_format" formatted="false">%s секунд</string>
     <string name="sb_stats_saved_sum" formatted="false">Это &lt;b>%s&lt;/b> их жизни.&lt;br>Нажмите здесь, чтобы увидеть таблицу лидеров</string>
     <string name="sb_stats_saved_sum_zero">Нажмите здесь, чтобы увидеть глобальную статистику и ведущих участников</string>
-    <string name="sb_stats_saved_zero">Список лидеров SponsorBlock</string>
-    <string name="sb_stats_sb_disabled">SponsorBlock отключен</string>
+    <string name="sb_stats_saved_zero">Список лидеров спонсорблока</string>
+    <string name="sb_stats_sb_disabled">Спонсорблок отключен</string>
     <string name="sb_stats_self_saved" formatted="false">Пропущенные сегменты: &lt;b>%s&lt;/b></string>
     <string name="sb_stats_self_saved_reset_title">Сбросить счетчик пропущенных сегментов?</string>
     <string name="sb_stats_self_saved_sum" formatted="false">Это &lt;b>%s&lt;/b></string>
