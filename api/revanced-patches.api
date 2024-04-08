@@ -1858,6 +1858,10 @@ public final class app/revanced/patches/youtube/general/handle/HideHandlePatch :
 	public synthetic fun execute (Lapp/revanced/patcher/data/Context;)V
 }
 
+public final class app/revanced/patches/youtube/general/handle/fingerprints/AccountSwitcherAccessibilityLabelAlternativeFingerprint : app/revanced/util/fingerprint/LiteralValueFingerprint {
+	public static final field INSTANCE Lapp/revanced/patches/youtube/general/handle/fingerprints/AccountSwitcherAccessibilityLabelAlternativeFingerprint;
+}
+
 public final class app/revanced/patches/youtube/general/handle/fingerprints/AccountSwitcherAccessibilityLabelFingerprint : app/revanced/util/fingerprint/LiteralValueFingerprint {
 	public static final field INSTANCE Lapp/revanced/patches/youtube/general/handle/fingerprints/AccountSwitcherAccessibilityLabelFingerprint;
 }
@@ -2736,6 +2740,10 @@ public final class app/revanced/patches/youtube/shorts/shortscomponent/fingerpri
 	public static final field INSTANCE Lapp/revanced/patches/youtube/shorts/shortscomponent/fingerprints/ShortsCommentFingerprint;
 }
 
+public final class app/revanced/patches/youtube/shorts/shortscomponent/fingerprints/ShortsCommentLegacyFingerprint : app/revanced/util/fingerprint/LiteralValueFingerprint {
+	public static final field INSTANCE Lapp/revanced/patches/youtube/shorts/shortscomponent/fingerprints/ShortsCommentLegacyFingerprint;
+}
+
 public final class app/revanced/patches/youtube/shorts/shortscomponent/fingerprints/ShortsDislikeFingerprint : app/revanced/util/fingerprint/LiteralValueFingerprint {
 	public static final field INSTANCE Lapp/revanced/patches/youtube/shorts/shortscomponent/fingerprints/ShortsDislikeFingerprint;
 }
@@ -2896,6 +2904,10 @@ public final class app/revanced/patches/youtube/utils/fingerprints/ThumbnailPrev
 
 public final class app/revanced/patches/youtube/utils/fingerprints/TotalTimeFingerprint : app/revanced/util/fingerprint/LiteralValueFingerprint {
 	public static final field INSTANCE Lapp/revanced/patches/youtube/utils/fingerprints/TotalTimeFingerprint;
+}
+
+public final class app/revanced/patches/youtube/utils/fingerprints/TotalTimeLegacyFingerprint : app/revanced/util/fingerprint/LiteralValueFingerprint {
+	public static final field INSTANCE Lapp/revanced/patches/youtube/utils/fingerprints/TotalTimeLegacyFingerprint;
 }
 
 public final class app/revanced/patches/youtube/utils/fingerprints/VideoEndFingerprint : app/revanced/patcher/fingerprint/MethodFingerprint {
