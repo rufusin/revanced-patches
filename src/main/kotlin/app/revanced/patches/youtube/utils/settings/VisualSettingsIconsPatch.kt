@@ -15,8 +15,7 @@ import org.w3c.dom.NodeList
     name = "Visual preferences icons",
     description = "Adds icons to specific preferences in the settings.",
     dependencies = [SettingsPatch::class],
-    compatiblePackages = [CompatiblePackage("com.google.android.youtube")],
-    use = false
+    compatiblePackages = [CompatiblePackage("com.google.android.youtube")]
 )
 @Suppress("unused")
 object VisualSettingsIconsPatch : ResourcePatch() {
