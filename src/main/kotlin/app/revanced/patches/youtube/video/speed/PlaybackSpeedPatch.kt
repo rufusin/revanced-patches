@@ -65,7 +65,9 @@ import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
                 "19.08.36",
                 "19.09.38",
                 "19.10.39",
-                "19.11.38"
+                "19.11.43",
+                "19.12.41",
+                "19.13.37"
             ]
         )
     ]
@@ -136,7 +138,10 @@ object PlaybackSpeedPatch : BytecodePatch(
 
         SettingsPatch.updatePatchStatus("Default playback speed")
 
-        context.updatePatchStatus("$UTILS_PATH/PatchStatus;", "DefaultPlaybackSpeed")
+        /**
+         * Disabling/enabling default setting in menu
+         */
+        // context.updatePatchStatus("$UTILS_PATH/PatchStatus;", "DefaultPlaybackSpeed")
 
     }
 

@@ -7,7 +7,8 @@ import app.revanced.patches.shared.patch.voicesearch.AbstractVoiceSearchButtonPa
 @Patch(
     name = "Hide voice search button",
     description = "Force to hide the voice search button in the search bar.",
-    compatiblePackages = [CompatiblePackage("com.google.android.apps.youtube.music")]
+    compatiblePackages = [CompatiblePackage("com.google.android.apps.youtube.music")],
+    use = false
 )
 @Suppress("unused")
 object VoiceSearchButtonPatch : AbstractVoiceSearchButtonPatch(

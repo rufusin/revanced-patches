@@ -10,7 +10,7 @@ import org.w3c.dom.Element
 
 @Patch(
     name = "Force hide player buttons background",
-    description = "Force to hide the dark background surrounding the video player controls. Exclude \"Hide player buttons background\".",
+    description = "Force to hide the dark background surrounding the video player controls.",
     dependencies = [SettingsPatch::class],
     compatiblePackages = [
         CompatiblePackage(
@@ -48,7 +48,9 @@ import org.w3c.dom.Element
                 "19.08.36",
                 "19.09.38",
                 "19.10.39",
-                "19.11.38"
+                "19.11.43",
+                "19.12.41",
+                "19.13.37"
             ]
         )
     ],
