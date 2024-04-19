@@ -903,9 +903,6 @@
     <string name="revanced_hide_shorts_player_pivot_button_summary_off">Кнопку звуку показується.</string>
     <string name="revanced_hide_shorts_player_pivot_button_summary_on">Кнопку звуку приховано.</string>
     <string name="revanced_hide_shorts_player_pivot_button_title">Приховати кнопку звуку</string>
-    <string name="revanced_hide_player_button_background_summary_off">Фон кнопок плеєра показується.</string>
-    <string name="revanced_hide_player_button_background_summary_on">Фон кнопок плеєра приховано.</string>
-    <string name="revanced_hide_player_button_background_title">Приховати фон кнопок плеєра</string>
     <string name="revanced_hide_shorts_player_sound_metadata_label_summary_off">Мітку метаданих звуку показується.</string>
     <string name="revanced_hide_shorts_player_sound_metadata_label_summary_on">Мітку метаданих звуку приховано.</string>
     <string name="revanced_hide_shorts_player_sound_metadata_label_title">Приховати мітку метаданих звуку</string>

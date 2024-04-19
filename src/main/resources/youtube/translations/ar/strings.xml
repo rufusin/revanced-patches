@@ -1022,9 +1022,6 @@
     <string name="revanced_hide_community_posts_related_video_summary_off">يتم عرض مشاركات المجتمع في الفيديو ذي الصلة.</string>
     <string name="revanced_hide_community_posts_related_video_summary_on">تم إخفاء مشاركات المجتمع في مقاطع الفيديو ذات الصلة.</string>
     <string name="revanced_hide_community_posts_related_video_title">إخفاء مشاركات المجتمع في الفيديو ذي الصلة</string>
-    <string name="revanced_hide_player_button_background_summary_off">يتم عرض خلفية أزرار المشغل.</string>
-    <string name="revanced_hide_player_button_background_summary_on">تم إخفاء خلفية أزرار المشغل.</string>
-    <string name="revanced_hide_player_button_background_title">إخفاء خلفية أزرار المشغل</string>
     <string name="revanced_hide_suggested_video_overlay_title">إخفاء تراكب الفيديو المقترح</string>
     <string name="revanced_hide_suggested_video_overlay_auto_play_summary">عند الانتهاء من مقطع فيديو، يتم تشغيل مقطع فيديو آخر تلقائيًا</string>
     <string name="revanced_hide_home_feed_membership_video_summary">إخفاء مقاطع الفيديو التي تحمل علامة "فقط للعضوية" في الصفحة الرئيسية</string>
