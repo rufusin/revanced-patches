@@ -54,7 +54,8 @@ import com.android.tools.smali.dexlib2.iface.instruction.formats.Instruction3rc
                 "19.10.39",
                 "19.11.43",
                 "19.12.41",
-                "19.13.37"
+                "19.13.37",
+                "19.14.43"
             ]
         )
     ]
