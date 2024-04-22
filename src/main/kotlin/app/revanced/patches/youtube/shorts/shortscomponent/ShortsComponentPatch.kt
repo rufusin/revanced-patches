@@ -21,6 +21,7 @@ import app.revanced.patches.youtube.shorts.shortscomponent.fingerprints.ShortsPi
 import app.revanced.patches.youtube.shorts.shortscomponent.fingerprints.ShortsPivotLegacyFingerprint
 import app.revanced.patches.youtube.shorts.shortscomponent.fingerprints.ShortsRemixFingerprint
 import app.revanced.patches.youtube.shorts.shortscomponent.fingerprints.ShortsShareFingerprint
+import app.revanced.patches.youtube.shorts.shortscomponent.fingerprints.ShortsShareLegacyFingerprint
 import app.revanced.patches.youtube.utils.integrations.Constants.COMPONENTS_PATH
 import app.revanced.patches.youtube.utils.integrations.Constants.SHORTS
 import app.revanced.patches.youtube.utils.litho.LithoFilterPatch
@@ -111,6 +112,7 @@ object ShortsComponentPatch : BytecodePatch(
         ShortsPivotLegacyFingerprint,
         ShortsRemixFingerprint,
         ShortsShareFingerprint,
+        ShortsShareLegacyFingerprint
     )
 ) {
     override fun execute(context: BytecodeContext) {
@@ -270,7 +272,13 @@ object ShortsComponentPatch : BytecodePatch(
         /**
          * Share button
          */
-        ShortsShareFingerprint.result?.let {
+        ShortsShareLegacyFingerprint.result?.let {
+            it.mutableMethod.apply {
+                val insertIndex = getWideLiteralInstructionIndex(ReelDynShare) - 2
+
+                hideButton(insertIndex, 0, "hideShortsPlayerShareButton")
+            }
+        } ?: ShortsShareFingerprint.result?.let {
             it.mutableMethod.apply {
                 val insertIndex = getWideLiteralInstructionIndex(ReelDynShare) - 2
 
