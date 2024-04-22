@@ -1062,9 +1062,6 @@ Las palabras con letras mayúsculas en el medio deben introducirse con las mayú
     <string name="revanced_hide_keyword_content_sub_title">Activar filtro de palabras clave para suscripciones</string>
     <string name="revanced_hide_keyword_toast_invalid_common" formatted="false">Palabra clave no válida. No se puede utilizar \'%s\' como filtro.</string>
     <string name="revanced_hide_keyword_content_filter_title">Filtro de palabras clave</string>
-    <string name="revanced_hide_player_button_background_summary_off">El fondo de los botones del reproductor está visible.</string>
-    <string name="revanced_hide_player_button_background_summary_on">El fondo de los botones del reproductor está oculto.</string>
-    <string name="revanced_hide_player_button_background_title">Ocultar fondo de botones del reproductor</string>
     <string name="revanced_hide_shorts_player_sound_metadata_label_summary_off">La etiqueta de metadatos de sonido está visible.</string>
     <string name="revanced_hide_shorts_player_sound_metadata_label_summary_on">La etiqueta de metadatos de sonido está oculta.</string>
     <string name="revanced_hide_shorts_player_sound_metadata_label_title">Ocultar etiqueta de metadatos de sonido</string>

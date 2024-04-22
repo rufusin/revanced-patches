@@ -22,29 +22,11 @@ def add_string_to_files(string):
     for root, dirs, files in os.walk(destination_directory):
         if "strings.xml" in files:
             # Get destination file path
-            destination_file = os.path.join(root, "updated-strings.xml")
+            destination_file = os.path.join(root, "updated_strings.xml")
             with open(destination_file, 'a') as f:
                 # Split the multiline string into lines, strip leading whitespace from each line, and join them back
                 stripped_lines = '\n'.join(line.strip() for line in string.split('\n'))
                 f.write(stripped_lines + '\n')
-
-def delete_string_from_files(string):
-    for root, dirs, files in os.walk(destination_directory):
-        for file in files:
-            if file.endswith(".xml"):
-                destination_file = os.path.join(root, file)
-                # Read the content of the updated strings file
-                with open(destination_file, 'r') as f:
-                    content = f.read()
-                # Extract name attribute values
-                name_attributes = re.findall(r'<string\s+name="([^"]*)"\s*>', string)
-                # Remove all occurrences of each name attribute if it exists
-                updated_content = content
-                for name_attr in name_attributes:
-                    updated_content = re.sub(rf'\n?\s*?<string\s+name="{re.escape(name_attr)}"\s*>.*?</string>', '', updated_content, flags=re.DOTALL)
-                # Rewrite the updated content to the file
-                with open(destination_file, 'w') as f:
-                    f.write(updated_content)
 
 # Function to find missing strings
 def find_missing_strings():
@@ -63,8 +45,8 @@ def find_missing_strings():
             # Output file path
             output_file = os.path.join(destination_folder, "missing_strings.xml")
 
-            # Locate updated-strings.xml file
-            updated_strings_file = os.path.join(destination_folder, "updated-strings.xml")
+            # Locate updated_strings.xml file
+            updated_strings_file = os.path.join(destination_folder, "updated_strings.xml")
 
             # Check if source and destination files exist
             if not os.path.isfile(source_file):
@@ -78,7 +60,7 @@ def find_missing_strings():
             # Extract strings from destination file
             destination_strings = extract_strings(destination_file)
 
-            # Extract strings from updated-strings.xml if exists
+            # Extract strings from updated_strings.xml if exists
             if os.path.isfile(updated_strings_file):
                 updated_strings = extract_strings(updated_strings_file)
                 # Count name attributes in updated strings
@@ -129,17 +111,11 @@ elif len(sys.argv) == 3 and sys.argv[1] == '-n':
     string = sys.argv[2]
     add_string_to_files(string)
 
-# If the argument is -d, call the string deletion function
-elif len(sys.argv) == 3 and sys.argv[1] == '-d':
-    string = sys.argv[2]
-    delete_string_from_files(string)
-
 # If neither condition is met, print a warning
 else:
     print("Invalid arguments. Usage:")
     print("To run original script: script.py")
     print("To add a string to files: script.py -n 'string'")
-    print("To delete a string from files: script.py -d 'string'")
 
 # Prompt the user to press a key before closing the terminal window
 input("\nPress Enter to exit...")

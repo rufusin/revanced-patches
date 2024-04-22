@@ -1044,9 +1044,6 @@ Les mots avec des majuscules au milieu doivent être écrits avec des majuscules
     <string name="revanced_hide_keyword_content_feed_summary_on">Le filtre àmot-clé est activé</string>
     <string name="revanced_hide_keyword_content_filter_summary">Masque les vidéos du flux et des résultats de recherche à l\'aide du filtre à mot-clé.</string>
     <string name="revanced_hide_keyword_content_feed_title">Filtre à mot-clé</string>
-    <string name="revanced_hide_player_button_background_summary_off">L\'arrière-plan des boutons du lecteur est affiché.</string>
-    <string name="revanced_hide_player_button_background_summary_on">L\'arrière-plan des boutons du lecteur est affiché.</string>
-    <string name="revanced_hide_player_button_background_title">Arrière plan des boutons du lecteur</string>
     <string name="revanced_override_premium_header_summary_off">En-tête : Par défaut</string>
     <string name="revanced_override_premium_header_summary_on">En-tête : YouTube Premium</string>
     <string name="revanced_override_premium_header_title">En-tête YouTube Premium</string>

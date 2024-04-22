@@ -17,8 +17,8 @@ import org.w3c.dom.Element
 @Suppress("unused")
 object HideSettingsPrefsPatch : ResourcePatch() {
 
-    private const val DEFAULT_ELEMENTS = "Data saving, Video quality preferences, Manage all history, Privacy, Try experimental new features, " +
-        "Purchases and memberships, Billing & payments, Connected apps, Live chat, Captions, About"
+    private const val DEFAULT_ELEMENTS = "Watch on TV, Manage all history, Privacy, Try experimental new features, " +
+        "Purchases and memberships, Billing and payments, Connected apps, Accessibility"
 
     private val SettingElements by stringPatchOption(
         key = "SettingElements",

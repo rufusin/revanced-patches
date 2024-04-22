@@ -12,6 +12,7 @@ import app.revanced.patcher.patch.annotation.Patch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patches.youtube.shorts.shortscomponent.fingerprints.ShortsCommentFingerprint
+import app.revanced.patches.youtube.shorts.shortscomponent.fingerprints.ShortsCommentLegacyFingerprint
 import app.revanced.patches.youtube.shorts.shortscomponent.fingerprints.ShortsDislikeFingerprint
 import app.revanced.patches.youtube.shorts.shortscomponent.fingerprints.ShortsInfoPanelFingerprint
 import app.revanced.patches.youtube.shorts.shortscomponent.fingerprints.ShortsLikeFingerprint
@@ -89,7 +90,10 @@ import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
                 "19.08.36",
                 "19.09.38",
                 "19.10.39",
-                "19.11.38"
+                "19.11.43",
+                "19.12.41",
+                "19.13.37",
+                "19.14.43"
             ]
         )
     ]
@@ -98,6 +102,7 @@ import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
 object ShortsComponentPatch : BytecodePatch(
     setOf(
         ShortsCommentFingerprint,
+        ShortsCommentLegacyFingerprint,
         ShortsDislikeFingerprint,
         ShortsInfoPanelFingerprint,
         ShortsLikeFingerprint,
@@ -113,9 +118,15 @@ object ShortsComponentPatch : BytecodePatch(
         /**
          * Comment button
          */
-        ShortsCommentFingerprint.result?.let {
+        ShortsCommentLegacyFingerprint.result?.let {
             it.mutableMethod.apply {
                 val insertIndex = getWideLiteralInstructionIndex(RightComment) + 3
+
+                hideButton(insertIndex, 1, "hideShortsPlayerCommentsButton")
+            }
+        } ?: ShortsCommentFingerprint.result?.let {
+            it.mutableMethod.apply {
+                val insertIndex = getWideLiteralInstructionIndex(RightComment) + 5
 
                 hideButton(insertIndex, 1, "hideShortsPlayerCommentsButton")
             }
