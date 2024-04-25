@@ -56,7 +56,7 @@ import app.revanced.patches.youtube.utils.videoid.general.VideoIdPatch
                 "19.13.37",
                 "19.14.43",
                 "19.15.36",
-                "19.16.37"
+                "19.16.38"
             ]
         )
     ]
