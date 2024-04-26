@@ -4,6 +4,7 @@ import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.InstructionExtensions.addInstruction
 import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
 import app.revanced.patcher.patch.BytecodePatch
+import app.revanced.patcher.patch.PatchException
 import app.revanced.patcher.patch.annotation.CompatiblePackage
 import app.revanced.patcher.patch.annotation.Patch
 import app.revanced.patches.reddit.layout.toolbar.fingerprints.HomePagerScreenFingerprint
@@ -47,7 +48,7 @@ object ToolBarButtonPatch : BytecodePatch(
                     "invoke-static {v$targetRegister}, $INTEGRATIONS_METHOD_DESCRIPTOR"
                 )
             }
-        } ?: throw HomePagerScreenFingerprint.exception
+        } ?: throw PatchException("This version is not supported. Please use Reddit 2024.15.0 or earlier.")
 
         updateSettingsStatus("ToolBarButton")
 
