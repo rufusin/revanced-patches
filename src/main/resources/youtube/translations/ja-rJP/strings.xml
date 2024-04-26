@@ -547,9 +547,6 @@ DeArrow の詳細については、ここをタップしてください。"</str
 	<string name="revanced_hide_playables_summary_off">Playables は表示されます。</string>
 	<string name="revanced_hide_playables_summary_on">Playables は非表示です。</string>
 	<string name="revanced_hide_playables_title">playables を非表示</string>
-	<string name="revanced_hide_player_button_background_summary_off">プレーヤーボタンの背景が表示されます。</string>
-	<string name="revanced_hide_player_button_background_summary_on">プレーヤーボタンの背景は非表示になります。</string>
-	<string name="revanced_hide_player_button_background_title">プレーヤーのボタンの背景を非表示にする</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_summary_off">「アンビエント モード」メニューは表示されます。</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_summary_on">「アンビエント モード」メニューは非表示です。</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_title">アンビエントモードメニューを非表示</string>

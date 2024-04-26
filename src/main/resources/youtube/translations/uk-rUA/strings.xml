@@ -547,9 +547,6 @@
 	<string name="revanced_hide_playables_summary_off">Ігрову кімнату показується</string>
 	<string name="revanced_hide_playables_summary_on">Ігрову кімнату приховано</string>
 	<string name="revanced_hide_playables_title">Приховати Ігрову кімнату</string>
-	<string name="revanced_hide_player_button_background_summary_off">Фон кнопок плеєра показується.</string>
-	<string name="revanced_hide_player_button_background_summary_on">Фон кнопок плеєра приховано.</string>
-	<string name="revanced_hide_player_button_background_title">Приховати фон кнопок плеєра</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_summary_off">Меню кінематографічного освітлення показується.</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_summary_on">Меню кінематографічного освітлення приховано.</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_title">Приховати меню кінематографічного освітлення</string>

@@ -539,9 +539,6 @@
 	<string name="revanced_hide_playables_summary_off">可播放影片已顯示。</string>
 	<string name="revanced_hide_playables_summary_on">可播放影片已隱藏。</string>
 	<string name="revanced_hide_playables_title">隱藏可播放影片</string>
-	<string name="revanced_hide_player_button_background_summary_off">播放器按鈕背景已顯示。</string>
-	<string name="revanced_hide_player_button_background_summary_on">播放器按鈕背景已隱藏。</string>
-	<string name="revanced_hide_player_button_background_title">隱藏播放器按鈕背景</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_summary_off">環境模式選單已顯示。</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_summary_on">環境模式選單已隱藏。</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_title">隱藏環境模式選單</string>

@@ -521,9 +521,6 @@ Catégorie \"Vous\" &gt; \"Afficher la chaîne\" &gt; Trois points &gt; \"Param�
 	<string name="revanced_hide_place_section_summary_off">La section \"Rechercher des lieux associés\" est affichée</string>
 	<string name="revanced_hide_place_section_summary_on">La section \"Rechercher des lieux associés\" est masquée</string>
 	<string name="revanced_hide_place_section_title">Section \"Rechercher des lieux associés\"</string>
-	<string name="revanced_hide_player_button_background_summary_off">L\'arrière-plan des boutons du lecteur est affiché.</string>
-	<string name="revanced_hide_player_button_background_summary_on">L\'arrière-plan des boutons du lecteur est affiché.</string>
-	<string name="revanced_hide_player_button_background_title">Arrière plan des boutons du lecteur</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_summary_off">Le bouton \"Mode ambiant\" est affiché.</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_summary_on">Le bouton \"Mode ambiant\" est masqué.</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_title">Bouton \"Mode ambiant\"</string>

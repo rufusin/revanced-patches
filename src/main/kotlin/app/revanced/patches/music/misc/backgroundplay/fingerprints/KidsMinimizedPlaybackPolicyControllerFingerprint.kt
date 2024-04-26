@@ -5,11 +5,11 @@ import app.revanced.patcher.fingerprint.MethodFingerprint
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
 
-internal object KidsMinimizedPlaybackPolicyControllerFingerprint : MethodFingerprint(
-    "V",
-    AccessFlags.PUBLIC or AccessFlags.FINAL,
-    listOf("I", "L", "Z"),
-    listOf(
+object KidsMinimizedPlaybackPolicyControllerFingerprint : MethodFingerprint(
+    returnType = "V",
+    accessFlags = AccessFlags.PUBLIC or AccessFlags.FINAL,
+    parameters = listOf("I", "L", "Z"),
+    opcodes = listOf(
         Opcode.IGET,
         Opcode.IF_NE,
         Opcode.IGET_OBJECT,
@@ -21,6 +21,6 @@ internal object KidsMinimizedPlaybackPolicyControllerFingerprint : MethodFingerp
         Opcode.SGET_OBJECT,
         Opcode.CONST_4,
         Opcode.IF_NE,
-        Opcode.IPUT_BOOLEAN,
-    ),
+        Opcode.IPUT_BOOLEAN
+    )
 )
