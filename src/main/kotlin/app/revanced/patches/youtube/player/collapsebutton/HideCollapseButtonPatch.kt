@@ -9,7 +9,7 @@ import app.revanced.patches.youtube.utils.settings.SettingsPatch
 
 @Patch(
     name = "Hide collapse button",
-    description = "Adds an option to hide the collapse button in the video player. Exclude \"Force hide collapse button\".",
+    description = "Adds an option to hide the collapse button in the video player.",
     dependencies =
     [
         PlayerButtonHookPatch::class,

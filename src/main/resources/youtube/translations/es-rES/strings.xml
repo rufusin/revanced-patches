@@ -544,9 +544,6 @@ Las palabras con letras mayúsculas en el medio deben introducirse con las mayú
 	<string name="revanced_hide_playables_summary_off">Los Reproducibles están visibles.</string>
 	<string name="revanced_hide_playables_summary_on">Los Reproducibles están ocultos.</string>
 	<string name="revanced_hide_playables_title">Ocultar reproducibles</string>
-	<string name="revanced_hide_player_button_background_summary_off">El fondo de los botones del reproductor está visible.</string>
-	<string name="revanced_hide_player_button_background_summary_on">El fondo de los botones del reproductor está oculto.</string>
-	<string name="revanced_hide_player_button_background_title">Ocultar fondo de botones del reproductor</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_summary_off">El menú de modo ambiente está visible.</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_summary_on">El menú de modo ambiente está oculto.</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_title">Ocultar menú de modo ambiente</string>

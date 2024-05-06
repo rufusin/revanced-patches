@@ -9,7 +9,7 @@ import app.revanced.util.ResourceGroup
 import app.revanced.util.copyResources
 
 @Patch(
-    name = "Hide double tap to like animations",
+    name = "Force hide double tap to like animations",
     description = "Force to hide the like animations when double tap the screen in the Shorts player.",
     dependencies = [SettingsPatch::class],
     compatiblePackages = [

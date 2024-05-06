@@ -7,7 +7,7 @@ import app.revanced.patches.shared.patch.voicesearch.AbstractVoiceSearchButtonPa
 import app.revanced.patches.youtube.utils.settings.SettingsPatch
 
 @Patch(
-    name = "Hide voice search button",
+    name = "Force hide voice search button",
     description = "Force to hide voice search button in search bar.",
     dependencies = [SettingsPatch::class],
     compatiblePackages = [
@@ -54,7 +54,8 @@ import app.revanced.patches.youtube.utils.settings.SettingsPatch
                 "19.16.38"
             ]
         )
-    ]
+    ],
+    use = false
 )
 @Suppress("unused")
 object VoiceSearchButtonPatch : AbstractVoiceSearchButtonPatch(

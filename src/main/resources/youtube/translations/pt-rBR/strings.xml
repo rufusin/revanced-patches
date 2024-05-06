@@ -544,9 +544,6 @@ Alguns componentes podem não ser ocultos"</string>
 	<string name="revanced_hide_playables_summary_off">Os jogáveis serão exibidos.</string>
 	<string name="revanced_hide_playables_summary_on">Os jogáveis ​​estão ocultos.</string>
 	<string name="revanced_hide_playables_title">Ocultar jogáveis</string>
-	<string name="revanced_hide_player_button_background_summary_off">O fundo dos botões do reprodutor será exibido.</string>
-	<string name="revanced_hide_player_button_background_summary_on">O fundo dos botões do reprodutor está oculto.</string>
-	<string name="revanced_hide_player_button_background_title">Ocultar o fundo dos botões do reprodutor</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_summary_off">O menu do modo ambiente será exibido</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_summary_on">O menu do modo ambiente está oculto</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_title">Ocultar menu do modo ambiente</string>
