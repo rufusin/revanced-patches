@@ -550,9 +550,6 @@ DeArrow에 대해 자세히 알아보려면 여기를 누르세요."</string>
 	<string name="revanced_hide_playables_summary_off">Playables이 노출됩니다.</string>
 	<string name="revanced_hide_playables_summary_on">Playables이 숨겨집니다.</string>
 	<string name="revanced_hide_playables_title">Playables 숨기기</string>
-	<string name="revanced_hide_player_button_background_summary_off">플레이어 버튼 배경이 노출됩니다.</string>
-	<string name="revanced_hide_player_button_background_summary_on">플레이어 버튼 배경이 숨겨집니다.</string>
-	<string name="revanced_hide_player_button_background_title">플레이어 버튼 배경 숨기기</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_summary_off">앰비언트 모드(영화 조명 모드) 메뉴가 노출됩니다.</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_summary_on">앰비언트 모드(영화 조명 모드) 메뉴가 숨겨집니다.</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_title">앰비언트 모드 메뉴 숨기기</string>

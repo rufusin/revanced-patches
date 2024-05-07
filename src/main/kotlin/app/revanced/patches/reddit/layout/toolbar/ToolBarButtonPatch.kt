@@ -48,7 +48,7 @@ object ToolBarButtonPatch : BytecodePatch(
                     "invoke-static {v$targetRegister}, $INTEGRATIONS_METHOD_DESCRIPTOR"
                 )
             }
-        } ?: throw PatchException("The patch is obsolete and irrelevant for this version. Compatible with 2024.15.0 and earlier.")
+        } ?: throw PatchException("This version is not supported. Please use Reddit 2024.15.0 or earlier.")
 
         updateSettingsStatus("ToolBarButton")
 

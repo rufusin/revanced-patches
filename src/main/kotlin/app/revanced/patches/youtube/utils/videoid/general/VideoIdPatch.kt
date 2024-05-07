@@ -107,7 +107,7 @@ object VideoIdPatch : BytecodePatch(
         videoTimeHook(INTEGRATIONS_CLASS_DESCRIPTOR, "setVideoTime")
 
         /**
-         * Set current video is livestream
+         * Set current video is live stream
          */
         OrganicPlaybackContextModelFingerprint.result?.let {
             it.mutableMethod.apply {

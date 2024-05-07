@@ -7,8 +7,8 @@ import app.revanced.patches.shared.patch.overlaybackground.AbstractOverlayBackgr
 import app.revanced.patches.youtube.utils.settings.SettingsPatch
 
 @Patch(
-    name = "Hide double tap overlay filter",
-    description = "Hides the double tap dark filter layer.",
+    name = "Force hide double tap overlay filter",
+    description = "Force to hide double tap dark filter layer.",
     dependencies = [SettingsPatch::class],
     compatiblePackages = [
         CompatiblePackage(
@@ -64,7 +64,7 @@ object DoubleTapOverlayBackgroundPatch : AbstractOverlayBackgroundPatch(
     override fun execute(context: ResourceContext) {
         super.execute(context)
 
-        SettingsPatch.updatePatchStatus("Hide double tap overlay filter")
+        SettingsPatch.updatePatchStatus("Force hide double tap overlay filter")
 
     }
 }
