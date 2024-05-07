@@ -10,15 +10,15 @@ import app.revanced.patches.youtube.utils.settings.SettingsPatch
 import org.w3c.dom.Element
 
 @Patch(
-    name = "Tuck away preferences",
+    name = "Force hide tuck away preferences",
     description = "Force to hide settings menu elements. Prefs \"Account\" and \"Your data in YouTube\" will be ignored if you add them as they may cause a crash.",
     compatiblePackages = [CompatiblePackage("com.google.android.youtube")]
 )
 @Suppress("unused")
 object HideSettingsPrefsPatch : ResourcePatch() {
 
-    private const val DEFAULT_ELEMENTS = "Data saving, Video quality preferences, Manage all history, Privacy, Try experimental new features, " +
-        "Purchases and memberships, Billing & payments, Connected apps, Live chat, Captions, About"
+    private const val DEFAULT_ELEMENTS = "Watch on TV, Manage all history, Privacy, Try experimental new features, " +
+        "Purchases and memberships, Billing and payments, Connected apps, Accessibility"
 
     private val SettingElements by stringPatchOption(
         key = "SettingElements",

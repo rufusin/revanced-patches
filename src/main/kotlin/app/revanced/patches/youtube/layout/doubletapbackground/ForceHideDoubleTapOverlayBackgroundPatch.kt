@@ -1,16 +1,14 @@
-package app.revanced.patches.youtube.player.collapsebutton
+package app.revanced.patches.youtube.layout.doubletapbackground
 
 import app.revanced.patcher.data.ResourceContext
-import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patcher.patch.annotation.CompatiblePackage
 import app.revanced.patcher.patch.annotation.Patch
+import app.revanced.patches.shared.patch.overlaybackground.AbstractOverlayBackgroundPatch
 import app.revanced.patches.youtube.utils.settings.SettingsPatch
-import app.revanced.util.doRecursively
-import org.w3c.dom.Element
 
 @Patch(
-    name = "Force hide collapse button",
-    description = "Force to hide the collapse button in player top UI container. Exclude \"Hide collapse button\".",
+    name = "Force hide double tap overlay filter",
+    description = "Force to hide double tap dark filter layer.",
     dependencies = [SettingsPatch::class],
     compatiblePackages = [
         CompatiblePackage(
@@ -56,32 +54,17 @@ import org.w3c.dom.Element
                 "19.16.38"
             ]
         )
-    ],
-    use = false
+    ]
 )
 @Suppress("unused")
-object ForceHideCollapseButtonPatch : ResourcePatch() {
+object DoubleTapOverlayBackgroundPatch : AbstractOverlayBackgroundPatch(
+    arrayOf("quick_seek_overlay.xml"),
+    arrayOf("tap_bloom_view", "dark_background")
+) {
     override fun execute(context: ResourceContext) {
-        val hide = "0.0dip"
+        super.execute(context)
 
-        context.document["res/layout/youtube_controls_layout.xml"].use { editor ->
-            editor.doRecursively { node ->
-                if (node !is Element) return@doRecursively
+        SettingsPatch.updatePatchStatus("Hide double tap overlay filter")
 
-                when (node.getAttributeNode("android:id")?.textContent) {
-                    "@id/player_collapse_button" -> {
-                        node.apply {
-                            setAttribute("android:layout_height", hide)
-                            setAttribute("android:layout_width", hide)
-                        }
-                    }
-                    "@id/title_anchor" -> {
-                        node.setAttribute("android:layout_marginStart", hide)
-                    }
-                }
-            }
-        }
-
-        SettingsPatch.updatePatchStatus("Force hide collapse button")
     }
 }

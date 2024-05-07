@@ -1,14 +1,16 @@
-package app.revanced.patches.youtube.layout.doubletapbackground
+package app.revanced.patches.youtube.layout.animated
 
 import app.revanced.patcher.data.ResourceContext
+import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patcher.patch.annotation.CompatiblePackage
 import app.revanced.patcher.patch.annotation.Patch
-import app.revanced.patches.shared.patch.overlaybackground.AbstractOverlayBackgroundPatch
 import app.revanced.patches.youtube.utils.settings.SettingsPatch
+import app.revanced.util.ResourceGroup
+import app.revanced.util.copyResources
 
 @Patch(
-    name = "Hide double tap overlay filter",
-    description = "Hides the double tap dark filter layer.",
+    name = "Force hide animated button background",
+    description = "Force to hide background of the pause and play animated buttons in Shorts player.",
     dependencies = [SettingsPatch::class],
     compatiblePackages = [
         CompatiblePackage(
@@ -54,17 +56,24 @@ import app.revanced.patches.youtube.utils.settings.SettingsPatch
                 "19.16.38"
             ]
         )
-    ]
+    ],
+    use = false
 )
 @Suppress("unused")
-object DoubleTapOverlayBackgroundPatch : AbstractOverlayBackgroundPatch(
-    arrayOf("quick_seek_overlay.xml"),
-    arrayOf("tap_bloom_view", "dark_background")
-) {
+object AnimatedButtonBackgroundPatch : ResourcePatch() {
     override fun execute(context: ResourceContext) {
-        super.execute(context)
+        /**
+         * Copy json
+         */
+        context.copyResources(
+            "youtube/animated",
+            ResourceGroup(
+                "raw",
+                "pause_tap_feedback.json",
+                "play_tap_feedback.json"
+            )
+        )
 
-        SettingsPatch.updatePatchStatus("Hide double tap overlay filter")
-
+        SettingsPatch.updatePatchStatus("Hide animated button background")
     }
 }

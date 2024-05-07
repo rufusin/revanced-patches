@@ -159,7 +159,7 @@ object SwipeControlsPatch : BytecodePatch(
                 )
             )
         } catch (e: Exception) {
-            println("WARNING: Disable auto HDR brightness is not supported in this version. Use YouTube 19.08.36 or earlier (${e.message})")
+            println("WARNING: Disable auto HDR brightness is not supported in this version. Please use YouTube 19.08.36 or earlier.")
         }
 
 

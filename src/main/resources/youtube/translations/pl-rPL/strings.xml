@@ -546,9 +546,6 @@ Niektóre komponenty mogą nie być ukryte."</string>
 	<string name="revanced_hide_playables_summary_off">Widoczny</string>
 	<string name="revanced_hide_playables_summary_on">Ukryty</string>
 	<string name="revanced_hide_playables_title">Pokój Gier</string>
-	<string name="revanced_hide_player_button_background_summary_off">Widoczne</string>
-	<string name="revanced_hide_player_button_background_summary_on">Ukryte</string>
-	<string name="revanced_hide_player_button_background_title">Tło przycisków odtwarzacza</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_summary_off">Widoczne</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_summary_on">Ukryte</string>
 	<string name="revanced_hide_player_flyout_panel_ambient_mode_title">Menu od oświetlenia kinowego</string>

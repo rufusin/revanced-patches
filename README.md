@@ -15,9 +15,9 @@ ReVanced Extended Patches.
 | `Append time stamps information` | Adds an option to add the current video quality or playback speed in brackets next to the current time. | 18.25.40 ~ 19.16.38 |
 | `Change player flyout panel toggles` | Adds an option to use text toggles instead of switch toggles within the additional settings menu. | 18.25.40 ~ 19.05.36 |
 | `Change start page` | Adds an option to set which page the app opens in instead of the homepage. | 18.25.40 ~ 19.16.38 |
-| `Custom branding heading` | Applies a custom heading in the top left corner within the app. | 18.25.40 ~ 19.16.38 |
 | `Custom branding icon YouTube` | Change the YouTube launcher icon to the icon specified in options.json. | 18.25.40 ~ 19.16.38 |
 | `Custom branding name YouTube` | Rename the YouTube app to the name specified in options.json. | 18.25.40 ~ 19.16.38 |
+| `Custom branding wordmark header` | Applies a custom heading in the top left corner within the app. | 18.25.40 ~ 19.16.38 |
 | `Custom double tap length` | Add 'double-tap to seek' value. | 18.25.40 ~ 19.16.38 |
 | `Custom package name` | Changes the package name for the non-root build of YouTube and YouTube Music to the name specified in options.json. | all |
 | `Custom playback speed` | Adds options to customize available playback speeds. | 18.25.40 ~ 19.16.38 |
@@ -51,13 +51,21 @@ ReVanced Extended Patches.
 | `Enable tablet mini player` | Adds an option to enable the tablet mini player layout. | 18.25.40 ~ 19.16.38 |
 | `Enable tablet navigation bar` | Adds an option to enable the tablet navigation bar. | 18.25.40 ~ 19.16.38 |
 | `Enable wide search bar` | Adds an option to replace the search icon with a wide search bar. This will hide the YouTube logo when active. | 18.25.40 ~ 19.16.38 |
+| `Force disable Shorts dim` | Forcefully disables the dimming effect on the top and bottom of Shorts video. | 18.25.40 ~ 19.16.38 |
 | `Force fullscreen` | Adds an option to forcefully open videos in fullscreen. | 18.25.40 ~ 19.16.38 |
+| `Force hide animated button background` | Force to hide background of the pause and play animated buttons in Shorts player. | 18.25.40 ~ 19.16.38 |
+| `Force hide double tap overlay filter` | Force to hide double tap dark filter layer. | 18.25.40 ~ 19.16.38 |
+| `Force hide double tap to like animations` | Force to hide the like animations when double tap the screen in the Shorts player. | 18.25.40 ~ 19.16.38 |
+| `Force hide fullscreen button` | Force to hide fullscreen button in player bottom UI container. | 18.25.40 ~ 19.16.38 |
 | `Force hide player buttons background` | Force to hide the dark background surrounding the video player controls. | 18.25.40 ~ 19.16.38 |
+| `Force hide player chapters` | Force to hide chapters in player bottom UI container. | 18.25.40 ~ 19.16.38 |
+| `Force hide tuck away preferences` | Force to hide settings menu elements. Prefs "Account" and "Your data in YouTube" will be ignored if you add them as they may cause a crash. | all |
+| `Force hide voice search button` | Force to hide voice search button in search bar. | 18.25.40 ~ 19.16.38 |
 | `Force opus codec` | Adds an option to force the opus audio codec instead of the mp4a audio codec. | 18.25.40 ~ 19.16.38 |
+| `Force snackbar theme` | Force snackbar background color to match selected theme. | 18.25.40 ~ 19.16.38 |
 | `Force video codec` | Adds an option to force the video codec. | 18.25.40 ~ 19.16.38 |
 | `Header switch` | Add switch to change header. | 18.25.40 ~ 19.16.38 |
 | `Hide account menu` | Adds the ability to hide account menu elements using a custom filter in the account menu and You tab. | 18.25.40 ~ 19.16.38 |
-| `Hide animated button background` | Force to hide the background of the pause and play animated buttons in the Shorts player. | 18.25.40 ~ 19.16.38 |
 | `Hide auto player popup panels` | Adds an option to hide panels (such as live chat) from opening automatically. | 18.25.40 ~ 19.16.38 |
 | `Hide autoplay button` | Adds an option to hide the autoplay button in the video player. | 18.25.40 ~ 19.16.38 |
 | `Hide autoplay preview` | Adds an option to hide the autoplay preview container when in fullscreen. | 18.25.40 ~ 19.16.38 |
@@ -72,14 +80,11 @@ ReVanced Extended Patches.
 | `Hide comment component` | Adds options to hide components related to comments. | 18.25.40 ~ 19.16.38 |
 | `Hide crowdfunding box` | Adds an option to hide the crowdfunding box between the player and video description. | 18.25.40 ~ 19.16.38 |
 | `Hide description components` | Adds an option to hide description components. | 18.25.40 ~ 19.16.38 |
-| `Hide double tap overlay filter` | Force to hide the double tap dark filter layer. | 18.25.40 ~ 19.16.38 |
-| `Hide double tap to like animations` | Force to hide the like animations when double tap the screen in the Shorts player. | 18.25.40 ~ 19.16.38 |
 | `Hide end screen cards` | Adds an option to hide suggested video cards at the end of the video in the video player. | 18.25.40 ~ 19.16.38 |
 | `Hide end screen overlay` | Adds an option to hide the overlay in fullscreen when swiping up and at the end of videos. | 18.25.40 ~ 19.16.38 |
 | `Hide feed flyout panel` | Adds the ability to hide feed flyout panel components using a custom filter. | 18.25.40 ~ 19.16.38 |
 | `Hide filmstrip overlay` | Adds an option to hide filmstrip overlay in the video player. | 18.25.40 ~ 19.16.38 |
 | `Hide floating microphone` | Adds an option to hide the floating microphone button when searching. | 18.25.40 ~ 19.16.38 |
-| `Hide fullscreen button` | Force to hide fullscreen button in player bottom UI container. | 18.25.40 ~ 19.16.38 |
 | `Hide fullscreen panels` | Adds an option to hide panels such as live chat when in fullscreen. | 18.25.40 ~ 19.16.38 |
 | `Hide general ads` | Adds options to hide general ads. | 18.25.40 ~ 19.16.38 |
 | `Hide handle` | Adds options to hide the handle in the account switcher and You tab. | 18.25.40 ~ 19.16.38 |
@@ -91,8 +96,6 @@ ReVanced Extended Patches.
 | `Hide music button` | Adds an option to hide the YouTube Music button in the video player. | 18.25.40 ~ 19.16.38 |
 | `Hide navigation buttons` | Adds options to hide and change navigation buttons (such as the Shorts button). | 18.25.40 ~ 19.16.38 |
 | `Hide navigation label` | Adds an option to hide navigation bar labels. | 18.25.40 ~ 19.16.38 |
-| `Hide player buttons background` | Adds an option to hide player buttons background. Exclude "Force hide player buttons background". | 18.25.40 ~ 19.16.38 |
-| `Hide player chapters` | Force to hide chapters in player bottom UI container. | 18.25.40 ~ 19.16.38 |
 | `Hide player flyout panel` | Adds options to hide player flyout panel components. | 18.25.40 ~ 19.16.38 |
 | `Hide previous next button` | Adds an option to hide the previous and next buttons in the video player. | 18.25.40 ~ 19.16.38 |
 | `Hide search term thumbnail` | Adds an option to hide thumbnails in the search term history. | 18.25.40 ~ 19.16.38 |
@@ -108,7 +111,6 @@ ReVanced Extended Patches.
 | `Hide tooltip content` | Hides the tooltip box that appears on first install. | 18.25.40 ~ 19.16.38 |
 | `Hide trending searches` | Adds an option to hide trending searches in the search bar. | 18.25.40 ~ 19.16.38 |
 | `Hide video ads` | Adds an option to hide ads in the video player. | 18.25.40 ~ 19.16.38 |
-| `Hide voice search button` | Force to hide voice search button in search bar. | 18.25.40 ~ 19.16.38 |
 | `Keep landscape mode` | Adds an option to keep landscape mode when turning the screen off and on in fullscreen. | 18.42.41 ~ 19.16.38 |
 | `Layout switch` | Adds an option to trick dpi to use tablet or phone layout. | 18.25.40 ~ 19.16.38 |
 | `MaterialYou` | Enables MaterialYou theme for Android 12+ | 18.25.40 ~ 19.16.38 |
@@ -127,7 +129,6 @@ ReVanced Extended Patches.
 | `Swipe controls` | Adds options to enable and configure volume and brightness swipe controls. | 18.25.40 ~ 19.16.38 |
 | `Theme` | Change the app's theme to the values specified in options.json. | 18.25.40 ~ 19.16.38 |
 | `Translations` | Add Crowdin translations for YouTube. | 18.25.40 ~ 19.16.38 |
-| `Tuck away preferences` | Force to hide settings menu elements. Prefs "Account" and "Your data in YouTube" will be ignored if you add them as they may cause a crash. | all |
 | `Visual preferences icons` | Adds icons to specific preferences in the settings. | all |
 </details>
 
@@ -163,6 +164,7 @@ ReVanced Extended Patches.
 | `Enable playback speed` | Adds an option to add a playback speed button to the flyout panel. | 6.21.52+ |
 | `Enable zen mode` | Adds an option to change the player background to light grey to reduce eye strain. Deprecated in YT Music 6.34.51+. | 6.21.52 ~ 6.33.52 |
 | `Exclusive audio playback` | Unlocks the option to play music without video. | 6.21.52+ |
+| `Force hide voice search button` | Force to hide voice search button in search bar. | 6.21.52+ |
 | `Hide "New" button` | Adds an option to hide the "New" button in the library. | 6.21.52+ |
 | `Hide account menu` | Adds the ability to hide account menu elements using a custom filter. | 6.21.52+ |
 | `Hide action bar component` | Adds options to hide action bar components and replace the offline download button with an external download button. | 6.21.52+ |
@@ -187,7 +189,6 @@ ReVanced Extended Patches.
 | `Hide taste builder` | Hides the "Tell us which artists you like" card from the homepage. | 6.21.52+ |
 | `Hide terms container` | Adds an option to hide the terms of service container in the account menu. | 6.21.52+ |
 | `Hide tooltip content` | Hides the tooltip box that appears when opening the app for the first time. | 6.21.52+ |
-| `Hide voice search button` | Force to hide the voice search button in the search bar. | 6.21.52+ |
 | `MicroG support` | Allows YouTube Music to run without root and under a different package name with MicroG. | 6.21.52+ |
 | `Remember playback speed` | Adds an option to remember the last playback speed selected. | 6.21.52+ |
 | `Remember repeat state` | Adds an option to remember the state of the repeat toggle. | 6.21.52+ |

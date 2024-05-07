@@ -9,8 +9,8 @@ import app.revanced.util.ResourceGroup
 import app.revanced.util.copyResources
 
 @Patch(
-    name = "Hide animated button background",
-    description = "Force to hide the background of the pause and play animated buttons in the Shorts player.",
+    name = "Force hide double tap to like animations",
+    description = "Force to hide the like animations when double tap the screen in the Shorts player.",
     dependencies = [SettingsPatch::class],
     compatiblePackages = [
         CompatiblePackage(
@@ -60,7 +60,7 @@ import app.revanced.util.copyResources
     use = false
 )
 @Suppress("unused")
-object AnimatedButtonBackgroundPatch : ResourcePatch() {
+object AnimatedLikePatch : ResourcePatch() {
     override fun execute(context: ResourceContext) {
         /**
          * Copy json
@@ -69,11 +69,10 @@ object AnimatedButtonBackgroundPatch : ResourcePatch() {
             "youtube/animated",
             ResourceGroup(
                 "raw",
-                "pause_tap_feedback.json",
-                "play_tap_feedback.json"
+                "like_tap_feedback.json"
             )
         )
 
-        SettingsPatch.updatePatchStatus("Hide animated button background")
+        SettingsPatch.updatePatchStatus("Hide double tap to like animations")
     }
 }
